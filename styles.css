@@ -1,0 +1,136 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.link-header {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin: 47px 32px 0px 42px;
+    cursor: pointer;
+}
+
+.button-SignUp {
+    Width: 124px;
+    Height: 51px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    margin: 32px 0 0 42px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+.img-logo {
+    margin: 163px 0 0 121px;
+    display: inline-block;
+}
+
+
+section {
+    display: inline-block;
+    margin-left: 84.82px;
+    width: 493px;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 32px;
+
+}
+
+.LearnMore {
+    margin-top: 55px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 550px) {
+
+section{
+position: absolute;
+top: 10px;
+display: block;
+text-align: center;
+margin-left: 45px;
+}
+
+h1 {
+        
+        width: 295px;
+        height: 63px;
+        margin-top: 125px;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    p {
+        
+        width: 304px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 33px;
+    }
+
+
+
+    .LearnMore {
+        display: block;
+        width: 320px;
+        
+        
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .button-SignUp {
+        position: absolute;
+        left: 220px
+    }
+
+    .img-logo {
+    position: absolute;
+bottom: 20px;
+width:85vw;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;}
+}
